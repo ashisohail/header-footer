@@ -1,0 +1,32 @@
+footer {
+  height: 50px;
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-container > p {
+  color: #d64c31;
+  font-size: medium;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.footer-items > a > i {
+  color: #d64c31;
+  opacity: 0.8;
+  font-size: 22px;
+}
+
+.footer-items > a > i:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.1);
+  opacity: none;
+}
