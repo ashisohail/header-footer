@@ -1,0 +1,31 @@
+/* App.css */
+
+.form-container {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 20px;
+}
